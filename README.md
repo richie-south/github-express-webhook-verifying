@@ -1,4 +1,4 @@
-# github-express-webhook-verifying
+# github-express-webhook-verifying [![npm version](https://badge.fury.io/js/github-express-webhook-verifying.svg)](https://badge.fury.io/js/github-express-webhook-verifying)
 
 Validating payloads from GitHub
 
