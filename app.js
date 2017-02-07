@@ -22,7 +22,7 @@ const githubWebhook = (secret) => (req, res, next) => {
   }
 
   if(!verifySignature(secret, JSON.stringify(req.body), sign)){
-    return res.status(400).send({
+    return res.status(403).send({
       error: 'verifying signature failed',
     })
   }
